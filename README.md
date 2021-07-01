@@ -1,6 +1,6 @@
 # Simple REST API using the Serverless Framework and LocalStack
 
-This example demonstrates how to set up LocalStack for a simple REST API built using the [Serverless Framework](https://www.serverless.com/).
+This example demonstrates how to set up LocalStack for a simple REST API built with the [Serverless Framework](https://www.serverless.com/).
 
 ## Prerequisites
 You need to have the following tools installed.
@@ -166,7 +166,7 @@ else:
 ...
 ```
 
-> Ideally, we want to make LocalStack's Lambda execution environment "LocalStack-agnostic", so that you are not required to adjust endpoints in your function code anymore. You want to help us with that? [Drop us a line in Slack]() or just [submit a pull request]()!.
+> Ideally, we want to make LocalStack's Lambda execution environment "LocalStack-agnostic", so that you are not required to adjust endpoints in your function code anymore. You want to help us with that? [Drop us a line in Slack](https://localstack-community.slack.com)!.
 
 ## Deploy to LocalStack
 
@@ -295,4 +295,4 @@ When re-deploying the service to LocalStack, you may run into the following issu
 In this case, simply restart the LocalStack Docker container (`ctrl`+`C` and `localstack start`).
 
 ## Contributing
-If you run into any issues, please [create an issue]() or, even better, [submit a pull request](). 
+If you run into any issues, please [create an issue](https://github.com/localstack/serverless-python-rest-api-with-dynamodb/issues/new) or, even better, [submit a pull request](https://github.com/localstack/serverless-python-rest-api-with-dynamodb/pulls). 
