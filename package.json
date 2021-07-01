@@ -1,0 +1,10 @@
+{
+  "name": "serverless-python-rest-api-with-dynamodb",
+  "version": "1.0.0",
+  "description": "Serverless CRUD service exposing a REST HTTP interface integrated with LocalStack",
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless-localstack": "^0.4.32"
+  }
+}
