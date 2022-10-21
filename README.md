@@ -15,7 +15,7 @@ The cloud provider takes care of the operation of these services, usually with h
 available out of the box. That means, you can concentrate on the business logic of your application instead of having to worry about operation and scaling. Furthermore, services like AWS Lambda offer a very fine-grained payment model where you only pay for the computational time you actually use.       
 
 ## Setting up the Serverless app
-The starting point for this guide is an [example Serverless service](https://www.serverless.com/examples/aws-python-rest-api-with-dynamodb/) acting as backend for a simple Todo app.
+The starting point for this guide is an [example Serverless service](https://www.serverless.com/examples/aws-python-http-api-with-dynamodb/) acting as backend for a simple Todo app.
 
 The service provides simple CRUD functionality exposed via a REST HTTP API. Under the hood the service uses an API Gateway in combination with a couple of Lambda functions that are connected to a DynamoDB table.
 
